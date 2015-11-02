@@ -8,7 +8,7 @@ function checkSubdomain($url){
 		if ($dotcount >= 3) {
 			echo "Subdomain";
 		}else{
-			if ($dotcount > 2) {
+			if ($dotcount >= 2) {
 				echo "Subdomain";
 			}else{
 				echo "Domain";
